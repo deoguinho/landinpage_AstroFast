@@ -1,0 +1,87 @@
+body{
+    background-image: url("../img/fundo.jpg");
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-right: 100px;
+}
+
+#menu ul li{display: inline;}
+
+#menu ul li a {
+    margin-top: 30px;
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* Visual dos links!! */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #489af2;
+    opacity: 0.7;
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+}
+
+#menu ul li a:hover{
+    color: #6d6d66;
+}
+
+/* fim do menu */
+
+.conteudo{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.titulo{
+    color: #489af2;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.titulo2{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#texto{
+    width: 420px;
+    margin-top: 30px;
+}
+
+.texto{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+/* fim conteudo */
+
+/* botao :) */
+
+#botao_entrar{
+    margin-top: 50px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    cursor: hand;
+    text-transform: uppercase;
+    background-color: #ff8d35;
+    color: white;
+    border: none;
+    padding: 1em 3em;
+    margin: 2em auto;
+    display: block;
+
+    transition: background .6s ease-in, transform .5s .25s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #c61140;
+    transform: scale(1.2) rotateX(30deg);
+}
